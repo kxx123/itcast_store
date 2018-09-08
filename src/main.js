@@ -5,9 +5,11 @@ import App from './App';
 import router from './router';
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
-import '@/assets/css/index.css'
+import '@/assets/css/index.css';
+import MyAxios from '@/plugins/myaxios';
 Vue.config.productionTip = false;
 Vue.use(ElementUI);
+Vue.use(MyAxios);
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
